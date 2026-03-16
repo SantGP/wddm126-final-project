@@ -1,0 +1,9 @@
+// Variable declaration
+const authorName = "Santiago Gonzalez";
+
+// Function that logs a welcome message
+function greetVisitor() {
+    console.log("Welcome to " + authorName + "'s portfolio!");
+}
+
+greetVisitor();

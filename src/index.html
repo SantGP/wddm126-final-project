@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="author" content="Santiago Gonzalez Perez">
+    <meta charset="UTF-8">
+
+    <!--External Style-->
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <!--Icon-->
+    <link rel="icon" type="image" href="icons/lighthouse-icon.png">
+    
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- Internal style -->
+    <style>
+
+        #bio-card {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            gap: 30px;
+            background-color: rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            border-radius: 16px;
+            padding: 35px;
+            max-width: 1400px;
+            width: 95%;
+            backdrop-filter: blur(6px);
+            margin: 0 auto;
+        }
+
+        #profile-img {
+            height: 210px;
+            width: 210px;
+            object-fit: cover;
+            border-radius: 12px;
+            flex-shrink: 0;
+        }
+
+        #bio-text {
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
+    </style>
+
+    <title>SG Portfolio</title>
+</head>
+
+ <body class="container">
+    <header>
+        <h1>Santiago Gonzalez</h1>
+        <h3>Biography</h3>
+
+        <!--Navigation hub-->
+        <nav>
+            <a href="">Home</a>
+            <a href="https://vimeo.com/1100941630">My Demo Reel</a>
+            <a href="">Contact</a>
+        </nav>
+
+    </header>
+
+        <h1 class="biographyText" style="color: blanchedalmond;">Hi, welcome</h1>
+
+        <!--Biography-->
+        <section id="bio-card">
+
+        <img src="images/ProfilePic.jpg" alt="Photo of Santiago Gonzalez" id="profile-img">
+
+        <!-- Text column -->
+        <div id="bio-text">
+
+            <!-- Introduction paragraph -->
+            <p class="biographyText">
+                I am Santiago Gonzalez, a 3D Animator based in Toronto, Ontario. 
+                Originally from Mexico City, I grew up surrounded by a rich visual culture that 
+                sparked my passion for storytelling through images. Moving to Canada gave me 
+                the opportunity to pursue that passion at a professional level, as I studied at 
+                Vancouver Film School and refined my craft every single day.
+            </p>
+
+            <!-- Skills & experience paragraph -->
+            <p class="biographyText">
+                My work focuses primarily on character animation and motion graphics. 
+                I enjoy the challenge of bringing digital characters to life, capturing 
+                subtle weight, personality, and emotion in every movement. Over the past 
+                few years, I have worked with tools such as Autodesk Maya, Blender, Motion Builder, 
+                Substance Painter, and Nuke to produce short films for independent projects. 
+                I believe great animation is invisible; the audience should feel the character, 
+                not see keyframes, everything has to look alive.
+            </p>
+
+            <!-- Goals & interests paragraph -->
+            <p class="biographyText">
+                Outside of animation, I enjoy photography and web design, and I am in love with 
+                watching films. I feel a deep connection with movies as I grew up watching a lot 
+                of them, and I always wondered how it was possible to convey so many emotions 
+                into a few frames, and nowadays I wonder the same, but now as a question for my 
+                creative proccess. My long-term goal is to work on projects where story and motion 
+                come together to create something truly memorable. If you would like to see my work, 
+                feel free to visit my 
+                <a href="https://vimeo.com/1100941630" style="color: whitesmoke;">demo reel</a>.
+            </p>
+
+        </div><!-- end #bio-text -->
+
+    </section>
+    <footer>
+      Santiago Gonzalez Perez
+    </footer>
+    <script src="script.js"></script>
+ </body>
+</html>

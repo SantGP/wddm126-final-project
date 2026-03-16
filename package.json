@@ -1,0 +1,20 @@
+{
+  "name": "wddm126-final-project",
+  "version": "1.0.0",
+  "description": "Final Project - Tools Workflow",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/script.js",
+    "dev": "nodemon src/script.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dayjs": "^1.11.20"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
