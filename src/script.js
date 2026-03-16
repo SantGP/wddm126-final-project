@@ -5,5 +5,4 @@ const authorName = "Santiago Gonzalez";
 function greetVisitor() {
     console.log("Welcome to " + authorName + "'s portfolio!");
 }
-
 greetVisitor();
