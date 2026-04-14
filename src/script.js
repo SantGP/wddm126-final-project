@@ -6,3 +6,6 @@ function greetVisitor() {
     console.log("Welcome to " + authorName + "'s portfolio!");
 }
 greetVisitor();
+
+let projectTitle = "WDDM 126 Final Project";
+console.log(projectTitle);
