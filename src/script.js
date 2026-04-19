@@ -9,3 +9,9 @@ greetVisitor();
 
 let projectTitle = "WDDM 126 Final Project";
 console.log(projectTitle);
+
+function displayWelcome() {
+    console.log("Feature branch enhancement loaded successfully.");
+}
+
+displayWelcome();
