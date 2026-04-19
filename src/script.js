@@ -16,3 +16,4 @@ function displayWelcome() {
 
 displayWelcome();
 
+console.log("Feature branch ready for PR.");
